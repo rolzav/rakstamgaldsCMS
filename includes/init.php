@@ -22,7 +22,10 @@ if (!isset($_SESSION['csrf_token'])) {
     $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
 }
 
-require_once __DIR__ . '/../vendor/autoload.php';
+// Include Flight framework
+require_once __DIR__ . '/../vendor/flight/Flight.php';
+
+// Include other necessary files
 require_once __DIR__ . '/db.php';
 require_once __DIR__ . '/sessions.php';
 require_once __DIR__ . '/functions.php';
