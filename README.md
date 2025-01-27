@@ -153,3 +153,56 @@ Data tree:
 ├── init_db.php
 ├── .htaccess
 └── index.php
+
+
+assets/css/style.css
+assets/js/app.js
+assets/images (img dir)
+
+config/config.php
+
+includes/init.php
+includes/db.php
+includes/sessions.php
+includes/functions.php
+includes/helpers.php
+includes/middleware.php
+
+routes/home.php
+routes/blog.php
+routes/post.php
+routes/about.php
+routes/login.php
+routes/logout.php
+routes/admin.php
+routes/category.php
+routes/tag.php
+
+views/partials/header.php
+views/partials/FOOTER.php
+
+views/admin/dashboard.php
+views/admin/create_category.php
+views/admin/create_post.php
+views/admin/create_tag.php
+views/admin/edit_category.php
+views/admin/edit_post.php
+views/admin/edit_tag.php
+views/admin/categories.php
+views/admin/posts.php
+views/admin/tags.php
+
+views/404.php
+views/home.php
+views/blog.php
+views/post.php
+views/about.php
+views/login.php
+views/categories.php
+views/category.php
+views/tags.php
+views/tag.php
+
+init_db.php
+.htaccess
+index.php
