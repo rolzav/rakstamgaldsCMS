@@ -91,7 +91,14 @@ Feel free to adjust any sections to better fit your project's specific details o
 
 
 Data tree:
-~/mansprojekts/
+~/www/x.demo.id.lv/
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│       └── app.js
+│   ├── images/
+│       └── (social media icons and other images)
 ├── config/
 │   └── config.php
 ├── includes/
@@ -100,7 +107,7 @@ Data tree:
 │   ├── sessions.php
 │   ├── functions.php
 │   ├── helpers.php
-│   ├── middleware.php
+│   └── middleware.php
 ├── routes/
 │   ├── home.php
 │   ├── blog.php
@@ -111,24 +118,19 @@ Data tree:
 │   ├── admin.php
 │   ├── category.php
 │   └── tag.php
-├── assets/
-│   ├── css/
-│   │   └── style.css
-│   ├── js/
-│   │   └── app.js
 ├── views/
 │   ├── partials/
 │   │   ├── header.php
 │   │   └── footer.php
 │   ├── admin/
-│   │   ├── categories.php
+│   │   ├── dashboard.php
 │   │   ├── create_category.php
 │   │   ├── create_post.php
 │   │   ├── create_tag.php
-│   │   ├── dashboard.php
 │   │   ├── edit_category.php
 │   │   ├── edit_post.php
 │   │   ├── edit_tag.php
+│   │   ├── categories.php
 │   │   ├── posts.php
 │   │   └── tags.php
 │   ├── 404.php
@@ -142,8 +144,12 @@ Data tree:
 │   ├── tags.php
 │   └── tag.php
 ├── data/
-│   └── nextgencmsblogging.db (generates automatically)
+│   └── nextgencmsblogging.db
 ├── vendor/
 │   └── flight/
-│       └── Flight.php (already added)
-└── .htaccess
+│       └── Flight.php
+├── logs/
+│   └── error.log
+├── init_db.php
+├── .htaccess
+└── index.php
